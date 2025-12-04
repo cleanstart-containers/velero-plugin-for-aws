@@ -4,7 +4,7 @@ A containerized version of the Velero Plugin for AWS that enables Velero to back
 
 **📌 CleanStart Foundation:** Security-hardened, minimal base OS designed for enterprise containerized environments.
 
-**Image Path:** `cleanstart/velero-plugin-for-aws`
+**Image Path:** `ghcr.io/cleanstart-containers/velero-plugin-for-aws`
 
 **Registry:** CleanStart Registry
 
@@ -55,7 +55,7 @@ CleanStart images are built on secure, minimal base operating systems and optimi
 
 ## 🖼️ Image Information
 
-**Image Name:** `cleanstart/velero-plugin-for-aws:latest-dev`
+**Image Name:** `ghcr.io/cleanstart-containers/velero-plugin-for-aws:latest-dev`
 
 **Image Details:**
 - **Base Architecture**: `amd64`
@@ -105,15 +105,15 @@ Typical scenarios where this container excels:
 
 ### Pull Commands
 ```bash
-docker pull cleanstart/velero-plugin-for-aws:latest
-docker pull cleanstart/velero-plugin-for-aws:latest-dev
+docker pull ghcr.io/cleanstart-containers/velero-plugin-for-aws:latest
+docker pull ghcr.io/cleanstart-containers/velero-plugin-for-aws:latest-dev
 ```
 
 ### Run Commands
 
 Basic test:
 ```bash
-docker run -it --name velero-plugin-for-aws-test cleanstart/velero-plugin-for-aws:latest-dev
+docker run -it --name velero-plugin-for-aws-test ghcr.io/cleanstart-containers/velero-plugin-for-aws:latest-dev
 ```
 
 Production deployment:
@@ -122,7 +122,7 @@ docker run -d --name velero-plugin-for-aws-prod \
   --read-only \
   --security-opt=no-new-privileges \
   --user 1000:1000 \
-  cleanstart/velero-plugin-for-aws:latest
+  ghcr.io/cleanstart-containers/velero-plugin-for-aws:latest
 ```
 
 ### Testing
@@ -164,8 +164,8 @@ CleanStart images support multiple architectures to ensure compatibility across 
 
 ### Architecture-based Pull Commands
 ```bash
-docker pull --platform linux/amd64 cleanstart/velero-plugin-for-aws:latest
-docker pull --platform linux/arm64 cleanstart/velero-plugin-for-aws:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/velero-plugin-for-aws:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/velero-plugin-for-aws:latest
 ```
 
 ---
