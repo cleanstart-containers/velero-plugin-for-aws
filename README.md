@@ -185,7 +185,7 @@ docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/velero-plugin-f
 - **Velero AWS Plugin Documentation:** https://github.com/vmware-tanzu/velero-plugin-for-aws
 - **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/velero-plugin-for-aws
 - **Docker Hub:** https://hub.docker.com/r/cleanstart/velero-plugin-for-aws
-- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart All Images:** https://images.cleanstart.com/images/velero-plugin-for-aws/details
 - **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ---
