@@ -179,16 +179,21 @@ docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/velero-plugin-f
 
 ---
 
-## Resources
-
-- **Official Documentation:** https://velero.io/docs/
-- **Velero AWS Plugin Documentation:** https://github.com/vmware-tanzu/velero-plugin-for-aws
-- **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/velero-plugin-for-aws
-- **Docker Hub:** https://hub.docker.com/r/cleanstart/velero-plugin-for-aws
-- **CleanStart All Images:** https://images.cleanstart.com
-- **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
-
----
+## Documentation Resources
+Essential links and resources for further information
+ 
+**CleanStart Images**: https://images.cleanstart.com/
+ 
+**Community Images**:
+**Docker Hub**: https://hub.docker.com/u/cleanstart<br>
+**GitHub**: https://github.com/cleanstart-containers<br>
+**AWS ECR Public Gallery**: https://gallery.ecr.aws/cleanstart/
+ 
+**Presence on Social Media**:
+**Community**: https://www.linkedin.com/groups/18324021/<br>
+**YouTube**: https://www.youtube.com/@CleanStartOfficial<br>
+ 
+**Contribute to Container Use Cases**: https://github.com/cleanstart-dev/cleanstart-use-cases/
 
 ## Disclaimer & License
 
